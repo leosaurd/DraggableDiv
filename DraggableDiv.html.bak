@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<style>
+	#wrapper {
+	width:80vw;
+	height:80vw;
+	background-color:gray;
+	position:relative;
+	}
+
+	#child {
+	position:absolute;
+	text-align:center;
+	border:1px solid #d3d3d3;
+	z-index:9;
+	}
+
+	#childheader {
+	cursor:move;
+	padding:10px;
+	}
+
+	</style>
+	<body>
+		<div id = "wrapper">
+			<div id = "child">
+				<div id = "childheader">"move me"</div>
+			</div>
+		</div>
+	</body>
+</html>
